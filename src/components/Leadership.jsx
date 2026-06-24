@@ -7,7 +7,9 @@ const Leadership = ({ leadershipData }) => {
   const getIcon = (role) => {
     if (role.includes("Joint Secretary")) return <FiUsers className="w-5 h-5 text-indigo-500" />;
     if (role.includes("President")) return <FaPalette className="w-5 h-5 text-accent" />;
+    if (role.includes("Vice Chair")) return <FiUsers className="w-5 h-5 text-purple-500" />;
     if (role.includes("Smart India")) return <FiCpu className="w-5 h-5 text-emerald-500" />;
+    if (role.includes("National Level")) return <FiCpu className="w-5 h-5 text-emerald-500" />;
     if (role.includes("Bharatiya Antariksh")) return <FiGlobe className="w-5 h-5 text-primary" />;
     if (role.includes("Samsung")) return <FiZap className="w-5 h-5 text-amber-500" />;
     if (role.includes("Art Competition")) return <FiAward className="w-5 h-5 text-red-500" />;

@@ -53,7 +53,6 @@ const Hero = ({ personalInfo }) => {
   const metrics = [
     { label: "CSE CGPA", value: "9.85", icon: <FaGraduationCap className="w-5.5 h-5.5" /> },
     { label: "PROJECTS", value: "5+", icon: <FiCode className="w-5.5 h-5.5" /> },
-    { label: "RESEARCH WORK", value: "1+", icon: <FiFileText className="w-5.5 h-5.5" /> },
     { label: "INTERNSHIPS", value: "1+", icon: <FiBriefcase className="w-5.5 h-5.5" /> },
     { label: "CERTIFICATIONS", value: "5+", icon: <FiAward className="w-5.5 h-5.5" /> }
   ];
@@ -168,7 +167,7 @@ const Hero = ({ personalInfo }) => {
 
         {/* Bottom Metrics Row */}
         <motion.div
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 pt-8 border-t border-slate-200 dark:border-slate-800"
+          className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-4 pt-8 border-t border-slate-200 dark:border-slate-800"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}

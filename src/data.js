@@ -139,24 +139,30 @@ export const portfolioData = {
   leadership: [
     {
       id: 1,
+      role: "Vice Chair",
+      organization: "IEEE Women in Engineering (WIE)",
+      description: "Organizing technical events, workshops, and initiatives to promote diversity and innovation in engineering."
+    },
+    {
+      id: 2,
       role: "Joint Secretary",
       organization: "SAC Council",
       description: "Coordinated student activities and university-wide initiatives."
     },
     {
-      id: 2,
+      id: 3,
       role: "President",
       organization: "Art Club (SAC)",
       description: "Leading a creative community of 200+ members and organizing events."
     },
     {
-      id: 3,
+      id: 4,
       role: "National Level Participant",
       organization: "Hackathons",
-      description: "Represented the institution at Smart India Hackathon (SIH), Scaler OpenEnv AI Hackathon (Top 800 Finalists out of 31,000+ teams), Bharatiya Antariksh Hackathon, and Samsung Solve for Tomorrow."
+      description: "Represented the institution at Smart India Hackathon (SIH) and Samsung Solve for Tomorrow."
     },
     {
-      id: 4,
+      id: 5,
       role: "Art Competition Winner",
       organization: "Fine Arts Competitions",
       description: "Won multiple medals and recognitions in national-level art competitions."
